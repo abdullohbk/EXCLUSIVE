@@ -1,0 +1,280 @@
+#page4_move {
+  .container {
+    .move__wrapper {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 111px;
+
+      p {
+        color: #000;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+      }
+
+      button {
+        padding: 16px 48px;
+        border-radius: 4px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        background-color: #fff;
+      }
+
+      button:hover {
+        background-color: #db4444;
+        color: #fff;
+      }
+    }
+
+    .move__cards--wrapper {
+      display: flex;
+      gap: 30px;
+      margin-top: 60px;
+      margin-bottom: 70px;
+      .move__cards {
+        &--top {
+          width: 270px;
+          height: 250px;
+          border-radius: 4px;
+          background: var(--Secondary, #f5f5f5);
+          padding: 12px;
+
+          &-wrapper {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            p {
+              padding: 4px 8px;
+              border-radius: 4px;
+              background: var(--Secondary-2, #db4444);
+              width: 55px;
+              color: #fff;
+            }
+
+            div {
+              width: 34px;
+              height: 34px;
+              background-color: #fff;
+              border-radius: 50%;
+              padding: 5px;
+              position: absolute;
+              right: 0;
+            }
+          }
+
+          .sumka {
+            margin-left: 40px;
+            margin-bottom: 39px;
+          }
+
+          .kalonk {
+            margin-top: 55px;
+            margin-bottom: 43px;
+            margin-left: 35px;
+          }
+
+          .joystik {
+            margin-top: 23px;
+            margin-left: 30px;
+            margin-bottom: 17px;
+          }
+
+          .dark {
+            margin-left: 30px;
+            margin-top: 17px;
+          }
+
+          .move__btn {
+            width: 270px;
+            height: 41px;
+            background-color: #000;
+            border: none;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 70px;
+            margin-left: -12px;
+            margin-bottom: 16px;
+          }
+        }
+
+        &--bottom {
+          p {
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            margin-top: 16px;
+          }
+
+          .move__text {
+            color: var(--Secondary-2, #db4444);
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            span {
+              color: var(--Button, #000);
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 24px;
+              text-decoration-line: strikethrough;
+              text-decoration: line-through;
+              opacity: 0.5;
+              margin-left: 12px;
+            }
+          }
+        }
+      }
+    }
+
+    .just__wrapper {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 60px;
+      .just__for--wrapper {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        p {
+          color: #000;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 26px;
+        }
+      }
+      button {
+        padding: 16px 48px;
+        border-radius: 4px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        background-color: #fff;
+      }
+
+      button:hover {
+        background-color: #db4444;
+        color: #fff;
+      }
+    }
+
+    .move__card__wrapper2 {
+      display: flex;
+      gap: 30px;
+      margin-top: 60px;
+      margin-bottom: 70px;
+      .move__cards2 {
+        &--top {
+          width: 270px;
+          height: 250px;
+          border-radius: 4px;
+          background: var(--Secondary, #f5f5f5);
+          padding: 12px;
+
+          &-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            p {
+              width: 56px;
+              height: 26px;
+              background-color: #db4444;
+              color: #fff;
+              border-radius: 4px;
+              padding: 4px 7px;
+            }
+          }
+
+          .laptop {
+            margin-left: 30px;
+            margin-bottom: 14px;
+          }
+
+          .tv {
+            margin-top: 20px;
+            margin-left: 35px;
+            margin-bottom: 45px;
+          }
+
+          .control {
+            margin-left: 30px;
+            margin-bottom: 43px;
+          }
+
+          .klaviatura {
+            margin-left: 20px;
+            margin-top: 30px;
+            margin-bottom: 60px;
+          }
+
+          .move__btn2 {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            width: 270px;
+            background: #000;
+            color: #fff;
+            padding: 9px 65px;
+            margin-left: -12px;
+            margin-bottom: 16px;
+            border: none;
+          }
+        }
+
+        &--bottom {
+          margin-top: 50px;
+          .cards2__text {
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            margin-bottom: 8px;
+          }
+
+          .cards2__cost {
+            color: var(--Secondary-2, #db4444);
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+
+            span {
+              color: var(--Button, #000);
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 24px;
+              text-decoration-line: strikethrough;
+              opacity: 0.5;
+              text-decoration: line-through;
+              margin-left: 12px;
+            }
+          }
+          div {
+            display: flex;
+            gap: 8px;
+
+            p {
+              color: #000;
+              opacity: 0.5;
+            }
+          }
+        }
+      }
+    }
+  }
+}

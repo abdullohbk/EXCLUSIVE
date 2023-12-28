@@ -1,0 +1,113 @@
+#footer {
+  padding: 80px 135px;
+  background-color: #000;
+
+  .container {
+    .footer__wrapper {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 2px solid rgba(47, 47, 47, 0.793);
+
+      ul {
+        li {
+          color: #fff;
+          list-style-type: none;
+          margin: 24px;
+          position: relative;
+
+          h3 {
+            color: var(--Text, #fafafa);
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.72px;
+          }
+
+          b {
+            color: var(--Text, #fafafa);
+            font-family: Poppins;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+          }
+
+          p {
+            color: var(--Text, #fafafa);
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            width: 175px;
+          }
+
+          input {
+            display: flex;
+            width: 217px;
+            padding: 12px 0px 12px 16px;
+            align-items: center;
+            gap: 32px;
+            border-radius: 4px;
+            border: 1.5px solid var(--Text, #fafafa);
+            background-color: #000;
+          }
+
+          .massage {
+            position: absolute;
+            bottom: 10px;
+            left: 180px;
+          }
+
+          span {
+            color: var(--Text, #fafafa);
+            font-family: Poppins;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 18px;
+            opacity: 0.7;
+            margin-bottom: 8px;
+          }
+
+          .qr__wrapper {
+            display: flex;
+            gap: 11px;
+            margin-top: 13px;
+            button {
+              background-color: #000;
+              border: none;
+              display: block;
+            }
+          }
+
+          .svg__wrapper {
+            display: flex;
+            gap: 24px;
+            margin-top: 24px;
+          }
+        }
+      }
+    }
+
+    .footer__bottom {
+      div {
+        margin-top: 16px;
+        margin-left: 35%;
+        display: flex;
+        gap: 6px;
+        p {
+          color: var(--Primary, #fff);
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+          opacity: 0.3; 
+        }
+      }
+    }
+  }
+}

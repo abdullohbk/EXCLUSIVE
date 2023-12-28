@@ -1,0 +1,11 @@
+//  for extends
+
+%card {
+  width: 270px;
+  height: 330px;
+  border-radius: 4px;
+  background: var(--Secondary, #f5f5f5);
+  padding: 12px;
+}
+
+// @exstend %extandName; call to extend

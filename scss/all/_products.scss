@@ -1,0 +1,181 @@
+#products {
+  padding-top: 70px;
+  .container {
+    .shape4 {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 30px;
+
+      p {
+        color: var(--Secondary-2, #db4444);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+      }
+    }
+
+    .title__wrapper2 {
+      display: flex;
+      justify-content: space-between;
+
+      h1 {
+        color: var(--Text2, #000);
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: 1.44px;
+        margin-bottom: 60px;
+      }
+
+      .line__wrapper2 {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        div {
+          width: 46px;
+          height: 46px;
+          padding: 11px;
+          background-color: #f5f5f5;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .card4__wrapper {
+      display: flex;
+      gap: 30px;
+
+      margin-bottom: 90px;
+      .card4 {
+        width: 270px;
+        height: 322px;
+
+        &__top {
+          position: relative;
+          width: 270px;
+          height: 270px;
+          border-radius: 4px;
+          background: var(--Secondary, #f5f5f5);
+          padding: 12px;
+          div {
+            button {
+              display: inline-flex;
+              padding: 4px 12px;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+              border-radius: 4px;
+              background: var(--Button1, #0f6);
+              border: none;
+              color: #fff;
+            }
+            div {
+              div {
+                width: 34px;
+                height: 34px;
+                background-color: #fff;
+                border: none;
+                border-radius: 50%;
+                padding: 1px;
+                margin: 8px;
+                position: absolute;
+                top: 0;
+                right: 0;
+              }
+              div:nth-child(2) {
+                position: absolute;
+                top: 45px;
+                right: 0;
+              }
+            }
+          }
+
+          .mers {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+          }
+
+          .add__btn {
+            width: 100%;
+            height: 40px;
+            background: #f5f5f5;
+            color: #f5f5f5;
+            border: none;
+            margin-top: -30px;
+            transition: all 0.3s linear;
+            border-radius: 10px;
+          }
+
+          .add__btn:hover {
+            background: #000;
+            color: #fff;
+            transition: all 0.3s liner;
+          }
+        }
+
+        &__bottom {
+          margin-top: 16px;
+          b {
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+          }
+          &__wrapper {
+            margin-top: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            p {
+              color: var(--Secondary-2, #db4444);
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 24px;
+            }
+
+            span {
+              color: var(--Text2, #000);
+              font-family: Poppins;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 21px;
+              opacity: 0.5;
+            }
+          }
+        }
+      }
+    }
+
+    .our__btn {
+      display: flex;
+      padding: 16px 48px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 4px;
+      background: var(--Button2, #db4444);
+      display: block;
+      margin: 60px auto;
+      border: none;
+      color: #fff;
+    }
+
+    .our__btn:hover{
+      background-color: #e91a1a;
+    }
+  }
+}

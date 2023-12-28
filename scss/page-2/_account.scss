@@ -1,0 +1,130 @@
+#account {
+  padding-top: 130px;
+  padding-bottom: 140px;
+  .container {
+    .account__wrapper {
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      &--left {
+        img {
+          position: relative;
+          left: -150px;
+        }
+      }
+
+      &--right {
+        position: relative;
+        left: -50px;
+        h1 {
+          color: var(--Text2, #000);
+          font-family: Inter;
+          font-size: 36px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 30px;
+          letter-spacing: 1.44px;
+          margin-bottom: 24px;
+        }
+
+        b {
+          color: var(--Text2, #000);
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+        }
+
+        input {
+          width: 371px;
+          display: block;
+          margin-top: 40px;
+          margin-bottom: 40px;
+          padding-bottom: 8px;
+          border: none;
+          border-bottom: 1px solid grey;
+        }
+
+        .account__btn {
+          display: flex;
+          padding: 16px 122px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          border-radius: 4px;
+          background: var(--Button2, #db4444);
+          border: none;
+          color: #fff;
+          margin-bottom: 16px;
+        }
+
+        .account__btn2 {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          padding: 16px 80px;
+          border: 1px solid grey;
+          border-radius: 4px;
+          margin-bottom: 32px;
+          transition: all 0.3s linear;
+        }
+
+        .account__btn2:hover {
+          transition: all 0.3s linear;
+          background-color: #db4444;
+          color: #fff;
+        }
+
+        .logp__wrapper {
+          
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .account__btn3 {
+            width: 143px;
+            padding: 16px;
+            border-radius: 4px;
+            background: var(--Button2, #db4444);
+            border: none;
+            color: #fff;
+            margin-bottom: 16px;
+            position: relative;
+            left: -40px;
+          }
+
+          .logp {
+            color: var(--Secondary-2, #db4444);
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; 
+          }
+
+          
+        }
+
+        div {
+          display: flex;
+          gap: 16px;
+          margin-left: 40px;
+
+          p {
+            color: var(--Text2, #000);
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            opacity: 0.5;
+          }
+
+          span {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

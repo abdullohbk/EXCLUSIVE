@@ -1,0 +1,76 @@
+#best {
+  padding-top: 70px;
+  .container {
+    .shape3 {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 30px;
+      p {
+        color: var(--Secondary-2, #db4444);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+      }
+    }
+    .title2__wrapper {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 60px;
+      button {
+        width: 159px;
+        height: 56px;
+        border-radius: 4px;
+        background: var(--Button2, #db4444);
+        border: none;
+        color: #fff;
+      }
+    }
+
+    .card2__wrapper {
+      display: flex;
+      justify-content: space-between;
+      div {
+        .card2 {
+          @extend %card;
+          position: relative;
+          div {
+            div {
+              width: 34px;
+              height: 34px;
+              background-color: #fff;
+              border: none;
+              border-radius: 50%;
+              padding: 1px;
+              margin: 8px;
+              position: absolute;
+              top: 0;
+              right: 0;
+            }
+            div:nth-child(2) {
+              position: absolute;
+              top: 45px;
+              right: 0;
+            }
+          }
+          .vitrovka {
+            margin: 52px 50px;
+          }
+        }
+
+        .card3__bottom{
+          display: flex;
+          flex-direction: column;
+          row-gap: 16px;
+            .bold{
+                margin-top: 16px;
+            }
+        }
+
+
+      }
+    }
+  }
+}
