@@ -63,7 +63,9 @@
         }
 
         .music__btn:hover{
-           background: var(--Button1, rgb(3, 160, 66)); 
+          background-color: #fff;
+          border: 1px solid black;
+          color: #000; 
         }
       }
 

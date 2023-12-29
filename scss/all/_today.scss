@@ -1,6 +1,7 @@
 #todays {
   border-bottom: 2px solid grey;
   padding-top: 70px;
+  padding-bottom: 140px;
   .container {
     .shape {
       display: flex;
@@ -128,13 +129,15 @@
         .add {
           position: absolute;
           bottom: 0;
+          right: 1px;
           width: 100%;
           color: #f5f5f5;
           border: none;
           height: 41px;
           background: #f5f5f5;
           transition: all 0.3s linear;
-          border-radius: 10px;
+       
+          
         }
         .add:hover {
           background-color: #000;
@@ -192,7 +195,9 @@
     }
 
     .btn__view:hover {
-      background-color: #d41111;
+      background-color: #fff;
+      border:  1px solid black;
+      color: #000;
     }
   }
 }
