@@ -320,6 +320,10 @@ body {
   font-family: Poppins, "sans serif";
 }
 
+::-webkit-scrollbar {
+  width: 0;
+}
+
 #todays .container .card__wrapper .card, #best .container .card2__wrapper div .card2 {
   width: 270px;
   height: 330px;
@@ -1416,6 +1420,7 @@ main {
 #page4_move .container .move__wrapper button:hover {
   background-color: #db4444;
   color: #fff;
+  border: 1px solid white;
 }
 #page4_move .container .move__cards--wrapper {
   display: flex;
@@ -1539,6 +1544,7 @@ main {
 #page4_move .container .just__wrapper button:hover {
   background-color: #db4444;
   color: #fff;
+  border: 1px solid white;
 }
 #page4_move .container .move__card__wrapper2 {
   display: flex;
@@ -2123,5 +2129,140 @@ main {
 #account .container .account__wrapper--right--bottom div div button:hover {
   color: #000;
   background-color: #fff;
+  border: 1px solid black;
+}
+
+#billing {
+  padding-bottom: 140px;
+}
+#billing .container .billing__title {
+  display: flex;
+  gap: 12px;
+  margin-top: 80px;
+}
+#billing .container .billing__title p {
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+#billing .container .billing__title p span {
+  color: #000;
+  opacity: 0.5;
+}
+#billing .container .billing__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#billing .container .billing__wrapper--left h1 {
+  color: var(--Text2, #000);
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1.44px;
+  margin-bottom: 48px;
+}
+#billing .container .billing__wrapper--left p {
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.4;
+  margin-bottom: 8px;
+}
+#billing .container .billing__wrapper--left input {
+  width: 470px;
+  height: 50px;
+  border-radius: 4px;
+  background: var(--Secondary, #f5f5f5);
+  border: none;
+  margin-bottom: 32px;
+}
+#billing .container .billing__wrapper--left div {
+  display: flex;
+  gap: 16px;
+}
+#billing .container .billing__wrapper--left div input {
+  width: 24px;
+  height: 24px;
+}
+#billing .container .billing__wrapper--left div p {
+  opacity: 1;
+}
+#billing .container .billing__wrapper--right .monitor__wrapper {
+  width: 425px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+#billing .container .billing__wrapper--right .monitor__wrapper img {
+  width: 54px;
+  height: 54px;
+}
+#billing .container .billing__wrapper--right .subtotal {
+  width: 425px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  border-bottom: 1px solid grey;
+  margin-top: 32px;
+}
+#billing .container .billing__wrapper--right .chekout__wrapper {
+  width: 425px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+#billing .container .billing__wrapper--right .chekout__wrapper div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+#billing .container .billing__wrapper--right .chekout__wrapper div img {
+  width: 42px;
+  height: 28px;
+  padding: 5px;
+}
+#billing .container .billing__wrapper--right .apply__wrapper {
+  display: flex;
+  gap: 16px;
+}
+#billing .container .billing__wrapper--right .apply__wrapper input {
+  padding: 16px 164px 16px 24px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+#billing .container .billing__wrapper--right .apply__wrapper button {
+  background-color: #DB4444;
+  padding: 16px 48px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+#billing .container .billing__wrapper--right .apply__wrapper button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
+}
+#billing .container .billing__wrapper--right .order {
+  background-color: #DB4444;
+  padding: 16px 48px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 32px;
+}
+#billing .container .billing__wrapper--right .order:hover {
+  background-color: #fff;
+  color: #000;
   border: 1px solid black;
 }/*# sourceMappingURL=style.css.map */
